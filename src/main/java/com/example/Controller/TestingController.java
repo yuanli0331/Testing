@@ -2,12 +2,13 @@ package com.example.Controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
 public class TestingController {
 
-    @RequestMapping("/helloWord")
-    public static String helloWord(){
+    @RequestMapping("/helloWorld")
+    public static String helloWorld(){
         return "hello world !";
     }
 }
