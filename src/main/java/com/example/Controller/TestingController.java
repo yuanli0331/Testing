@@ -9,6 +9,6 @@ public class TestingController {
 
     @RequestMapping("/helloWorld")
     public static String helloWorld(){
-        return "hello world(updated)";
+        return "hello world";
     }
 }
