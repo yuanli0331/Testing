@@ -41,7 +41,7 @@
 
                 <configuration>
                     <includeSystemScope>true</includeSystemScope>
-                    <mainClass>com.example.application</mainClass>
+                    <mainClass>com.example.application.Application</mainClass>
                 </configuration>
             </plugin>
         </plugins>
