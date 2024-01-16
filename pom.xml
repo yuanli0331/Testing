@@ -29,7 +29,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-
+                <version>2.2.5.RELEASE</version>
                 <executions>
                     <execution>
                         <phase>package</phase>
@@ -41,7 +41,7 @@
 
                 <configuration>
                     <includeSystemScope>true</includeSystemScope>
-                    <mainClass>api.ProviderApplication</mainClass>
+                    <mainClass>com.example.application</mainClass>
                 </configuration>
             </plugin>
         </plugins>
